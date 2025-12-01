@@ -331,6 +331,30 @@ body {
     font-size: 1.2rem;
 }
 
+.job-sublist {
+    list-style: none;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.job-sublist li {
+    padding: 0.4rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+    color: #c0c0c0;
+    line-height: 1;
+}
+
+.job-sublist li::before {
+    content: '◦';
+    position: absolute;
+    left: 0;
+    top: 0.4rem;
+    color: #8e9aef;
+    font-size: 1rem;
+    line-height: 1;
+}
+
 .footer {
     background: rgba(0, 0, 0, 0.3);
     text-align: center;
